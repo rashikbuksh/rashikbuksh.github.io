@@ -1140,9 +1140,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
@@ -1619,6 +1622,37 @@ input, select, textarea {
 			}
 
 		}
+
+		/* Extras for card */
+
+		.card {
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+			max-width: 300px;
+			margin: auto;
+			text-align: center;
+			font-family: arial;
+		  }
+		  
+		  .price {
+			color: grey;
+			font-size: 22px;
+		  }
+		  
+		  .card button {
+			border: none;
+			outline: 0;
+			padding: 12px;
+			color: white;
+			background-color: #000;
+			text-align: center;
+			cursor: pointer;
+			width: 100%;
+			font-size: 18px;
+		  }
+		  
+		  .card button:hover {
+			opacity: 0.7;
+		  }
 
 /* Footer */
 
