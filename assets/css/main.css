@@ -1632,6 +1632,9 @@ input, select, textarea {
 			text-align: center;
 			font-family: arial;
 		  }
+		  .cart-text {
+			text-align: left;
+		  }
 		  
 		  .price {
 			color: grey;
